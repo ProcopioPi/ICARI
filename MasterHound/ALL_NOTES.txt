@@ -1,0 +1,90 @@
+
+///----------------
+-requires Python installation, a specific version
+(which is not that common)
+
+-I tried installing the new version and had conflicts 
+and warns not having the versions needed 
+so you have to get if you are using a graphical installer
+anaconda 2019.07
+https://repo.anaconda.com/archive/
+
+-It has to present the data or a pre-processed data 
+creating if first by the user. this is an extra step
+
+-you have to remove duplicates yourself
+
+-installation of software by pip installation which
+requieres a console instructions
+
+-the application also needs console instructions to work
+
+-newer versions of python would make teh installation fail
+
+-it is a web application running on python as server so the configuration (after creating) 
+would be how you would manage your files.
+
+////////	MODELS USED  //////////////
+NAIVE BAYES
+NEURAL NETWORKS WITH LSTM
+SVM
+LOGISTIC
+
+https://asreview.readthedocs.io/en/latest/data.html
+https://github.com/asreview
+https://mybuild.microsoft.com/en-US/sessions/599c82b6-0c5a-4add-9961-48b85d9ffde0?source=sessions
+
+NOT NOW............................................................................................
+- UPDATE WORD CLEANING ACCORDING TO COMMON DICTIONARY (NLP and AI PART)::: AI PART NOT NOW---------
+- science direct *************
+//-------------------------------------------------------------------------------------------------
+
+- ADD TXT EXTENSION SO IT WOULD OPEN AUTOMATICALLY WITH NOTEPAD :::::::::::::::::::::::::::::::::::::: DONE
+- SAVE QUERYS										-::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- en la lista visual se debe ver status del artículo por bajar, bajado, evaluado.::::::::::::::::::::: DONE
+(rojo, amarillo, verde) verde evaluado por humano, azul evaluado por máquina.    ::::::::::::::::::::: DONE
+- actualiar nombre de proyectos :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- salvar en tiempo real, cargar solo una vez ya sea al bajar o de disco :::::::::::::::::::::::::::::: DONE
+- desplegar cuántas páginas hay de artículos ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- desplegar el total de artículos :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+///////////////// new stufff--------------------------------------------------------------------------
+store doi		:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+add another column of aleady proess::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+import dataset of already processed :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+actualiza project name en la ventana de evaluación ::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- dropdownbox historic query ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- SUPER BUG, SI ESTA VACIO EL TEXTFIELD NO DEBE BUSCAR NADA :::::::::::::::::::::::::::::::::::::::::: DONE
+- DO NOT OVERWRITE AN EXISTING ID :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE 
+- DO NOT DOWNLOAD AN EXISTING ID ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE 
+- ACCUMULATIVE DOWNLOADS IN QUERY :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- podría poner en load animation una función que sea para advertir que se estan obteniendo los ids ::: DONE
+- revisar que el botón de download baje los siguientes 10 artículos y actualice la información ::::::: DONE
+- EXTEND QUERY BY STORING :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- EXTEND IDs BY COMBINING :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- debo probar que se incrementan los ids solicitados conforme se solicitan diferentes
+ queries en un proyecto pero que no baje los repetidos:::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- al dar bajar mas no debe borrar las que ya estan abajo ::::::::::::::::::::::::::::::::::::::::::::: DONE
+- no continuar hacia adelante si llegó al límite de artículos existentes en disco::::::::::::::::::::: DONE
+- revisar si el proyecto es nuevo, si se abrio y continuó otro.::::::::::::::::::::::::::::::::::::::: DONE
+- TXT_INDEX_TextChanged :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- TXT_MAX_INDEX_TextChanged::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- INDEXES OUT OF THE VIEW PAGE CAUSES OUT OF BOUNDS EXCEPTIO BECAUSE WE EVALUATED OUTSIDE THE VIEW ::: DONE
+- ADD STATUS OF NUMBERS OF IDS DOWNLOADED AND ARTICLES DOWNLOADED :::::::::::::::::::::::::::::::::::: DONE
+- numbers have offset in animation ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- WHEN SORT COLUMNS SHOULD SORT ALL INFO NOT ONLY THE VISIBLE PAGE ::::::::::::::::::::::::::::::::::: DONE
+- If all papers have been evaluated and it is re-evaluated or clicked the next button, it will go to the
+immediate next	:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: DONE
+- CONSISTENCY OF INDEXE IN BOTH	the page viewer and main page index :::::::::::::::::::::::::::::::::: DONE
+
+NEW BUT WHEN ONLY FEWER IDS THAN THE REQUIERD TO DOWNLOAD IN THE QUERY
+
+should create a PAGE class where it manages all the datagrid info displayed
+////////////////////////////////////////////////////////////////////// MAYBE ////////////////////////////////
+- ROW VS INDEX COUNT	***********					- ????
+
+- revisar que pasa si no recibe nunca la respuesta del servidor... se queda colgado esperando
+ocurre con buscar la palabra Cancer, probablemente sean demasiados IDs y tarda guardando a disco 
+la lista
+
+-- ADD LOGS ???
+
